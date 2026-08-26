@@ -1,0 +1,50 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .ti {
+    background: linear-gradient(
+      to bottom,
+      #1f2937 0%, #1f2937 45%,
+      #ffffff 45%, #ffffff 60%,
+      #6b7280 60%, #6b7280 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .amp {
+    color: white;
+    -webkit-text-stroke: 2px black;
+  }
+</style>
+<div style="height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:system-ui;gap:12px;text-align:center;padding:24px;">
+  
+  <div style="font-size:4em;font-weight: 900;">
+    <span class="ti">TI</span>
+    <span class="amp">&</span>
+    <span style="color: orange;">NER</span>
+  </div>
+
+  <div style="opacity:0.4;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14em" height="14em" viewBox="0 0 24 24">
+      <path d="M0 0h24v24H0z" fill="none" />
+      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2 9.483A14.5 14.5 0 0 1 12 5.5M16 4l4 4m0-4l-4 4m3 4.9c-3.866-3.867-10.134-3.867-14 0m11 3.257a5.657 5.657 0 0 0-8 0m4 3.093v-.5" />
+    </svg>
+  </div>
+
+  <button onclick="location.reload()" style="padding:16px 24px;font-size:16px;border-radius:8px;border:none;background:#0f0f0f;color:#fff;display:flex;justify-content:center;align-items:center;gap:1rem;cursor: pointer;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+      <path d="M0 0h24v24H0z" fill="none" />
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5">
+        <path d="M11 21H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v7" />
+        <path stroke-linejoin="round" d="M2 7h20M5 5.01l.01-.011M8 5.01l.01-.011M11 5.01l.01-.011m10.657 11.668C21.047 15.097 19.635 14 17.99 14c-1.758 0-3.252 1.255-3.793 3" />
+        <path stroke-linejoin="round" d="M19.995 16.772H21.4a.6.6 0 0 0 .6-.6V14.55m-7.666 4.783C14.953 20.903 16.366 22 18.01 22c1.758 0 3.252-1.255 3.793-3" />
+        <path stroke-linejoin="round" d="M16.005 19.228H14.6a.6.6 0 0 0-.6.6v1.622" />
+      </g>
+    </svg>
+    <span style="font-size:1.5em;">
+      App újratöltése
+    </span>
+  </button>
+</div>
