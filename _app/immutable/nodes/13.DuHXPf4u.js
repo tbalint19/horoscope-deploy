@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/DOgYQRp6.js";import{a as o,f as p}from"../chunks/JawmGb6I.js";var t=p('<main class="pt-12 text-center"><span class="loading loading-spinner loading-xl"></span></main>');function s(a){var n=t();o(a,n)}export{s as component};
